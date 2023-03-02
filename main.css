@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+ /* Side Panel  */
+.side-panel {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 280px;
+    color: rgb(170, 167, 167);
+    flex-direction: column;
+     
+}
+ /* Side Panel Title  */
+.side-panel-title img {
+    height: 56px;
+    width: 52px;
+}
+.side-panel-title h1 {
+    font-size: 2em;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 13px;
+    color: rgb(246, 242, 242);
+    padding-bottom: 30px;
+}
+.side-panel-title {
+    text-align: left;
+    padding-top: 30px;
+     display: inline-flex;
+    padding-left: 25px;
+}
+/* Side Pannel Upper  */
+
+.side-panel-upper {
+     font-size: .9em;
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+.spu-lines {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 0;
+}
+.spu-lines img {
+    height: 27px;
+    width: 27px;
+     
+}
+.icons {
+    padding-right: 15px;
+}
+ 
+/* Side Pannel Mid */
+.side-panel-mid {
+     font-size: .9em;
+     padding-top: 27px;
+    display: inline-flex;
+    flex-direction: column;
+     
+    padding-left: 28px;
+}
+.spm-lines {
+    display: inline-flex;
+    padding: 8px 0px;
+    align-items: center;
+    
+}
+.spm-lines img {
+    height: 27px;
+    width: 27px;
+     
+}
+
+/* Side Pannel lower */
+.side-panel-lower {
+    display: inline-flex;
+    text-align: center;
+    font-size: 1em;
+    flex-flow: wrap;
+    position: relative;
+    top: 310px;
+    margin-left: 25px;
+     
+    width: 200px;
+
+
+}
+.side-panel-lower h6 {
+    padding: 8px 10px
+}
+.side-panel-lower-single {
+    display: flex;
+    flex-direction: column;
+    float: left;
+ 
+    padding: 0;
+    text-align: left;
+}
+
+/* Side Pannel footer */
+.side-panel-footer {
+    display: inline-flex;
+    font-size: .7em ;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 410px;
+    border: .1em solid white;
+    border-radius: 20px;
+    margin-left: 25px;
+    height: 35px;
+    color: rgb(246, 242, 242);
+    width: 100px;
+} 
+.footer-text {
+    padding-left: 4px;
+}
